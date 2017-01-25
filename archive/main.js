@@ -89,7 +89,6 @@ function Game(){
             $("#goFS").on('click', function(event){
                 console.log("Trying to go fullscreen");
                 self.toggleFullScreen();
-                window.open("new.html");
             });
 
             if (navigator.getBattery) {
